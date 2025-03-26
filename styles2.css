@@ -1,0 +1,98 @@
+/* General Page Styling */
+body {
+    font-family: 'Poppins', sans-serif; /* Different Font */
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 20px;
+    padding: 20px;
+}
+
+/* Heading (Using an ID) */
+#main-title {
+    color: #ff4500; /* Orange Red */
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+/* Paragraph (Using a Class) */
+.text-box {
+    font-size: 18px;
+    line-height: 1.6;
+    background: #ffffff;
+    padding: 15px;
+    border-left: 5px solid #007bff;
+    border-radius: 5px;
+}
+
+/* Image Styling (Selectors Used: img, class) */
+img {
+    display: block;
+    margin: 15px auto;
+    max-width: 20%;
+    height: auto;
+    border-radius: 10px;
+    border: 3px solid #333;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Table Styling */
+.table-container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background: #008080;
+    color: white;
+}
+
+/* Form Styling */
+form {
+    background: #ffebcd;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+    max-width: 400px;
+    margin: auto;
+}
+
+label {
+    font-weight: bold;
+    color: #ff4500;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background: #32cd32;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background: #228b22;
+}
